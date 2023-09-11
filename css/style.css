@@ -1,0 +1,51 @@
+body{
+    background-color: #b8edb8;
+}
+
+h1 {
+    font-family: Impact;
+    text-align: center;
+    font-size: 24;
+}
+
+h2 {
+    font-family: Courier;
+    color: Purple;
+    font-size: 20;
+}
+
+h3 {
+    font-family: Arial;
+    color: darkblue;
+    font-size: 16;
+}
+
+nav li {
+   
+}
+
+p {
+    line-height: 10;
+}
+
+img {
+    border: solid 5px #5928ed;
+    padding: 5px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+li {
+    border: 2px solid black;
+    display: inline-block;
+}
+
+a{
+    background-color: yellow;
+    padding: 5px;
+
+}
+
+footer {
+    border: solid 1px #CC00AA
+}
