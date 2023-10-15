@@ -9,18 +9,19 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <a href = "#main">Skip to Main Content</a>
+    <a class = 'skip' href = "#main">Skip to Main Content</a>
 
     <nav>
         <ul>
-            <li><a href= "index.html">Home/Pets</a></li>
-            <li><a href= "recipes.html">Recipes</a></li>
+            <li><a href= "index.html">Pets</a></li>
+            <li><a class="here" href= "recipes.html">Recipes</a></li>
             <li><a href= "travel.html">Travel</a></li>
         </ul>
     </nav>
 
     <main id = "main">
+
+        <h1>Recipes</h1>
 
         <!-- rec 1 -->
         <div>
@@ -29,7 +30,7 @@
             <span>Source: https://www.budgetbytes.com/pork-peanut-dragon-noodles/</span>
             <span>Category: Main Dish, Comfort Food, Quick Meal</span>
 
-            <img class = image src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Pork-and-Peanut-Dragon-Noodles-close-768x576.jpg" width = "400" alt = "">
+            <img class = image src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Pork-and-Peanut-Dragon-Noodles-close-768x576.jpg" width = "90%" alt = "">
             <p>This meal is a cheap and easy alternative to the classic cheap college meal: ramen noodles. It cooks up in about 10
             minutes, and offers a ton of flavor and a more filling alternative to the typical packaged food. There is also plenty of
             room for culinary freedom and expression by adding extra sauces or spices, and substituting the pork for something like
@@ -60,9 +61,11 @@
             </ol>
             
             <h3>Additional Food images:</h3>
-            <img src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Dragon-Sauce-768x576.jpg" width = "200" alt = "Bowl of sauces mixed together">
-            <img src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Reduced-Dragon-Sauce-768x576.jpg" width = "200" alt = "Peanuts and pork cooking in sauce">
-            <img src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Pork-and-Peanut-Dragon-Noodles-finished-768x576.jpg" width = "200" alt = "Pork and peanuts being tossed with cooked ramen and green onions">
+            <div class = "recipe-photo-gallery">
+                <img src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Dragon-Sauce-768x576.jpg" width = "90%" alt = "Bowl of sauces mixed together">
+                <img src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Reduced-Dragon-Sauce-768x576.jpg" width = "90%" alt = "Peanuts and pork cooking in sauce">
+                <img class = "recipe-main-img" src="https://www.budgetbytes.com/wp-content/uploads/2018/01/Pork-and-Peanut-Dragon-Noodles-finished-768x576.jpg" width = "90%" alt = "Pork and peanuts being tossed with cooked ramen and green onions">
+            </div>
              
             <!-- Cooper Silhanek -->
 
@@ -75,7 +78,7 @@
             <span>Source: Own recipe</span>
             <span>Category: Main Dish</span>
 
-            <img src = "images/sushiBake.jpeg" width = "400" alt = "">
+            <img src = "images/sushiBake.jpeg" width = "90%" alt = "">
             <p>Do you want easy, quick way to enjoy sushi without having to do all of the work? Try to make our sushi bake, which takes 10 minutes to assemble and 20 minutes to bake in the oven. Our recipe feeds 8 people.</p>
 
             <h3>Recipe Ingredients:</h3>
@@ -106,10 +109,12 @@
             </ol>
 
             <h3>Additional Food images:</h3>
-            <img src="images/rice.jpeg" width = "200" alt = "Make your rice and mix the rice vinegar into it">
-            <img src="images/avocado.jpeg" width = "200" alt = "Sliced avocado from step 7">
-            <img src="images/imitation_crab.jpg" width = "200" alt = "Imitation crab for crab salad">
-             
+            <div class = "recipe-photo-gallery">
+                <img src="images/rice.jpeg" width = "90%" alt = "Make your rice and mix the rice vinegar into it">
+                <img src="images/imitation_crab.jpg" width = "90%" alt = "Imitation crab for crab salad">
+                <img class = "recipe-main-img" src="images/avocado.jpeg" width = "90%" alt = "Sliced avocado from step 7">
+            </div>
+            
             <!-- Ethan Tai and Joshua Vijayasegar -->
 
         </div>
@@ -121,7 +126,7 @@
             <span>Source: Own recipe</span>
             <span>Category: Main Dish</span>
 
-            <img src="images/tomato-egg-main-image.jpeg" width = "400" alt = "">
+            <img src="images/tomato-egg-main-image.jpeg" width = "90%" alt = "">
             <p>Tomato and eggs is a hot dish which originated from China. It is a simple and fast dish to make, but it has good nutritional value. It is a very satisfying food to eat and popularly served with rice and topped with green onions.</p>
 
             <h3>Recipe Ingredients:</h3>
@@ -143,10 +148,12 @@
             </ol>
             
             <h3>Additional Food images:</h3>
-            <img src="images/tomato-egg-side1.jpeg" width = "200" alt = "Tomato egg with rice">
-            <img src="images/tomatoes-cooking.webp" width = "200" alt = "Tomatoes cooking on a pan">
-            <img src="images/scramble-eggs.jpeg" width = "200" alt = "Scrambled eggs cooking on a pan">
-             
+            <div class = "recipe-photo-gallery">
+                <img src="images/tomatoes-cooking.webp" width = "90%" alt = "Tomatoes cooking on a pan">
+                <img src="images/scramble-eggs.jpeg" width = "90%" alt = "Scrambled eggs cooking on a pan">
+                <img class = "recipe-main-img" src="images/tomato-egg-side1.jpeg" width = "90%" alt = "Tomato egg with rice">
+            </div>
+            
             <!-- Alex Ni -->
 
         </div>
@@ -158,7 +165,7 @@
             <span>Source: Own recipe</span>
             <span>Category: Main Dish</span>
 
-            <img src="images/dead-simple-fried-rice-primary.jpg" width = "400" alt = "">
+            <img src="images/dead-simple-fried-rice-primary.jpg" width = "90%" alt = "">
             <p>This Dead Simple Fried Rice recipe is an incredibly modular and tasty dish. At its core, it's just rice, vegetables, protein, and oil. As such, the dish can be modified to serve as many or as few people as needed with a wide variety of food preferences. Experimentation with what specific ingredients you enjoy the most will unlock the full potential of this dish.</p>
 
             <h3>Recipe Ingredients:</h3>
@@ -188,10 +195,12 @@
             </ol>
             
             <h3>Additional Food images:</h3>
-            <img src="images/dead-simple-fried-rice-1.jpg" width = "200" alt = "Dead Simple Fried Rice packed for lunch">
-            <img src="images/dead-simple-fried-rice-2.jpg" width = "200" alt = "Another photo of the Dead Simple Fried Rice in a frying pan">
-            <img src="images/dead-simple-fried-rice-3.jpg" width = "200" alt = "An additional photo of the Dead Simple Fried Rice in a frying pan">
-             
+            <div class = "recipe-photo-gallery">
+                <img src="images/dead-simple-fried-rice-1.jpg" width = "90%" alt = "Dead Simple Fried Rice packed for lunch">
+                <img src="images/dead-simple-fried-rice-2.jpg" width = "90%" alt = "Another photo of the Dead Simple Fried Rice in a frying pan">
+                <img class = "recipe-main-img" src="images/dead-simple-fried-rice-3.jpg" width = "90%" alt = "An additional photo of the Dead Simple Fried Rice in a frying pan">
+            </div>
+            
             <!-- Tristan Goodell -->
 
         </div>
@@ -203,7 +212,7 @@
             <span>Source: https://www.bonappetit.com/recipe/pasta-with-no-cook-tomato-sauce</span>
             <span>Category: Main Dish</span>
 
-            <img src="images/basically-no-cook-tomato-sauce.jpg" width = "400" alt = "">
+            <img src="images/basically-no-cook-tomato-sauce.jpg" width = "90%" alt = "">
             <p>This recipe is a fantastic way to step up your pasta game without taking too much more of your time. It tastes way better than basic pasta with jarred sauce! I originally found this when my sister made it, and got the recipe off of Bon Appetit’s website. PS avoid using the shaker parmesan – I used that the first time I made this and it drew down the quality of the dish.</p>
 
             <h3>Recipe Ingredients:</h3>
@@ -231,10 +240,12 @@
             </ol>
 
             <h3>Additional Food images:</h3>
-            <img src="images/tomato.jpg" width = "200" alt = "A juicy tomato with water droplets.">
-            <img src="images/basil.jpg" width = "200" alt = "A few leaves of basil">
-            <img src="images/fettuccine.jpg" width = "200" alt = "Some fettuccine in a pot of boiling water">
-             
+            <div class = "recipe-photo-gallery">
+                <img src="images/tomato.jpg" width = "90%" alt = "A juicy tomato with water droplets.">
+                <img src="images/basil.jpg" width = "90%" alt = "A few leaves of basil">
+                <img class = "recipe-main-img" src="images/fettuccine.jpg" width = "90%" alt = "Some fettuccine in a pot of boiling water">
+            </div>
+            
             <!-- Leif Doxey-Van Heest -->
 
         </div>
